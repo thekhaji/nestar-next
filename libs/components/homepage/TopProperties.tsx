@@ -21,6 +21,8 @@ const TopProperties = (props: TopPropertiesProps) => {
 	/** APOLLO REQUESTS **/
 	/** HANDLERS **/
 
+	
+
 	if (device === 'mobile') {
 		return (
 			<Stack className={'top-properties'}>
