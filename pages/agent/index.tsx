@@ -216,7 +216,7 @@ AgentList.defaultProps = {
 	initialInput: {
 		page: 1,
 		limit: 10,
-		sort: 'createdAt',
+		// sort: 'createdAt',
 		direction: 'DESC',
 		search: {},
 	},
