@@ -104,8 +104,8 @@ export const GET_ALL_PROPERTIES_BY_ADMIN = gql`
  *************************/
 
 export const GET_ALL_BOARD_ARTICLES_BY_ADMIN = gql`
-	query GetAllBoardArticlesByAdmin($input: AllBoardArticlesInquiry!) {
-		getAllBoardArticlesByAdmin(input: $input) {
+	query GetAllBoardAticlesByAdmin($input: AllBoardArticlesInquiry!) {
+		getAllBoardAticlesByAdmin(input: $input) {
 			list {
 				_id
 				articleCategory
